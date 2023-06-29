@@ -6,4 +6,6 @@ I needed to transform the whole planet of snow maps from hdf to geotiff. The bes
 
 Was a hard no. [Unlike now.](https://wiki.earthdata.nasa.gov/display/DAS/COMMAND+LINE+HEG#COMMANDLINEHEG-multipleDatasets)
 
-This script updates a parameter file for each source data set in the specified folder and runs HEG commands to process it.
+First script order_folders.py gets all the images from standard folders and puts them in the main one.
+
+The main script transform.py updates a parameter file for each source data set in the specified folder and runs HEG commands to process it. The inputs are: the folder where HEGTools are located, folders with data sets and username that was used while installing HEG.
