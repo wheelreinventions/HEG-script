@@ -1,6 +1,6 @@
 # HEG script
 
-I needed to transform the whole planet of snow maps from hdf to geotiff. The best working solution was [HEG](https://wiki.earthdata.nasa.gov/display/DAS/HEG%3A++HDF-EOS+to+GeoTIFF+Conversion+Tool), but unfortunately the answer for the question:
+I needed to transform the whole planet of snow maps from hdf to geotiff. The most convenient solution was [HEG](https://wiki.earthdata.nasa.gov/display/DAS/HEG%3A++HDF-EOS+to+GeoTIFF+Conversion+Tool), but unfortunately the answer for the question:
 
 > Q:  Is there another way of running batch job for processing thousands of HDF-EOS data sets?
 
